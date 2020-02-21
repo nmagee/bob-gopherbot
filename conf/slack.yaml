@@ -3,7 +3,7 @@ ProtocolConfig:
   MaxMessageSplit: {{ env "GOPHER_SLACK_MAX_MSGS" | default "2" }}
   SlackToken: xoxb-{{ decrypt "MAPRDnkQZKNvgU9agHH3r/gTK3y1mADjrHtTzqiCwGovcSoxe5uD62bM9FcpejD3WokNdyAkaY7DOlegY6a/Fp9CnMD4sGK/+BKhSApe" }}
 
-DefaultChannels: [ "general", "random" ]
+DefaultChannels: [ "robots", "aws" ]
 
 UserRoster:
   - UserName: nmagee
