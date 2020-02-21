@@ -1,4 +1,4 @@
-AdminUsers: [ "nmagee" ]
+AdminUsers: [ "nmagee","david" ]
 ProtocolConfig:
   MaxMessageSplit: {{ env "GOPHER_SLACK_MAX_MSGS" | default "2" }}
   SlackToken: xoxb-{{ decrypt "MAPRDnkQZKNvgU9agHH3r/gTK3y1mADjrHtTzqiCwGovcSoxe5uD62bM9FcpejD3WokNdyAkaY7DOlegY6a/Fp9CnMD4sGK/+BKhSApe" }}
@@ -8,6 +8,8 @@ DefaultChannels: [ "robots", "aws" ]
 UserRoster:
   - UserName: nmagee
     UserID: U3P12BTG9
+  - UserName: david
+    UserID: UAJ6JE5E0
   # - UserName: floyd
   #   UserID: U138KTVCL
   #   BotUser: true
